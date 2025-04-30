@@ -1,0 +1,89 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+*.sass-cache/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code and Android Studio
+.vscode/
+*.sublime-project
+*.sublime-workspace
+/.dart_tool
+/.flutter-plugins
+/.packages
+/pubspec.lock
+/build/
+/test/widget_test.dart
+
+# XCode / iOS
+ios/*.xcodeproj/project.xcworkspace/xcuserdata
+ios/*.xcodeproj/xcuserdata
+ios/DerivedData/
+ios/Flutter/app.framework
+ios/Flutter/AppFrameworkInfo.plist
+ios/Runner.app
+ios/Runner/*.xcworkspace
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Android
+android/app/src/main/assets/*
+android/app/src/main/res/raw/*
+android/app/src/main/java/com/example/flutter/generated_plugin_registrant.java
+android/*.iml
+/android/.gitignore
+
+# macOS
+/*.iml
+*.iml~
+macos/Build/
+macos/build/
+macos/Products/
+macos/Xcode/
+macos/*.xcodeproj/project.xcworkspace/xcuserdata
+macos/*.xcodeproj/xcuserdata
+
+# Windows
+/windows/Build/
+/windows/build/
+/windows/out/
+/windows/runner/Debug/
+/windows/runner/Release/
+/windows/runner/x64/
+/windows/runner/x86/
+
+# Linux
+/linux/deploy/
+/linux/build/
+/linux/runner/
+
+# Web
+/web/build/
+
+# Coverage reports
+coverage/
+
+# Firebase crashlytics debug symbols
+**/app.android.symbol
+**/app.ios.symbol
+
+# The build directory is where flutter stores compiled artifacts.
+/build
+
+# The .dart_tool directory contains Dart SDK-related tooling metadata.
+/.dart_tool
+
+# The .flutter-view directory may be created when using --preview-dart-2.
+/.flutter-view
+
+# VS Code will load local_settings.json without this line
+/.vscode/settings.json
